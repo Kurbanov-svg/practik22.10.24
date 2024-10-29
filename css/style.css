@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: DM Sans, sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: #03012d;
+}
+
+#header {
+  padding-block: 20px;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin-inline: 120px auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+nav a {
+  color: #fff;
+}
+
+button {
+  width: 132px;
+  padding: 13px;
+  border-radius: 4px;
+  background-color: rgba(37, 99, 235, 1);
+  color: #fff;
+}
+
+.main-text h1 {
+  font-size: 58px;
+  width: 600px;
+  color: rgba(217, 70, 239, 1);
+  color: rgba(37, 99, 235, 1);
+}
+
+.main-text p {
+  font-size: 16px;
+  width: 610px;
+  color: rgba(229, 231, 235, 1);
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.main-text button {
+  font-size: 16px;
+  padding: 20px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.main-title h1 {
+  font-size: 42px;
+  color: #fff;
+  text-align: center;
+}
+.main-title p {
+  font-size: 16px;
+  width: 600px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 50px;
+  margin-top: 27px;
+  margin-inline: auto;
+}
+
+.main-blok h1 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.main-blok p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: auto;
+  width: 330px;
+  text-align: center;
+  margin-left: 80px;
+}
+
+.main-blok a {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 15px auto;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  margin-left: 80px;
+}
+
+.main-blok {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box img {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 180px;
+}
+
+.codi h1 {
+  font-size: 42px;
+  width: 600px;
+  color: #fff;
+  padding-top: 170px;
+}
+
+.codi p {
+  width: 500px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.codi {
+  display: flex;
+  align-items: center;
+}
+
+.boki-text h1 {
+  font-size: 42px;
+  width: 600px;
+  color: #fff;
+  padding-top: 170px;
+}
+
+.boki-text p {
+  width: 500px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  padding-block: 50px;
+}
+
+.caps-title h1 {
+  text-align: center;
+  font-size: 38px;
+  color: #fff;
+}
+
+.caps-title p {
+  text-align: center;
+  width: 500px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 35px;
+}
